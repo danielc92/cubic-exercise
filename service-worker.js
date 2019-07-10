@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cubic-exercise/precache-manifest.71b8923d2865020b527fe44e23984ec6.js"
+  "/cubic-exercise/precache-manifest.188183ff1964a73f59574d8a69abc788.js"
 );
 
 self.addEventListener('message', (event) => {

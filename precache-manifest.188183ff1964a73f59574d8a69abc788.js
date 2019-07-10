@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de4d5a0fc51a4708d262ad6e604ca738",
+    "revision": "302cd675ce48033a9c1064bb77817af6",
     "url": "/cubic-exercise/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cubic-exercise/static/js/2.a5adb38c.chunk.js"
   },
   {
-    "revision": "226a5bac09452632d66c",
-    "url": "/cubic-exercise/static/js/main.52165002.chunk.js"
+    "revision": "52f6a4dc826126efa506",
+    "url": "/cubic-exercise/static/js/main.7ebaa255.chunk.js"
   },
   {
     "revision": "abff6327056c864b3263",
