@@ -18,6 +18,10 @@ export default class App extends Component {
         this.fetchData(this.state.extension);
     }
 
+
+    // Grab the data from api, using variable extension 
+    // Needs a cors fix
+    // Also need to reset filtered products each call.
     fetchData = (extension) => {
         const cors_fix = 'https://cors-anywhere.herokuapp.com/';
         const url_base = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com';
@@ -39,17 +43,23 @@ export default class App extends Component {
         .catch(error => console.log(`API CALL ERROR: ${error}`))
     }
 
+
+    // Go to next page, generate data for next page
     nextPage = () => {
         let extension = this.state.next_page
         this.fetchData(extension)
     }
 
+
+    // Store the filter from onChange event
     storeFilter = (e) => {
         let filter = e.target.value.toLowerCase();
         this.setState({filter: filter})
         this.filterProducts()
     }
 
+
+    // Filter the products in state
     filterProducts = () => {
 
         if (this.state.filter.length > 0) {
@@ -65,6 +75,8 @@ export default class App extends Component {
         
     }
 
+    // Calculates the average cubic weights of the filtered products within state
+    // returns average
     calculateWeights = () => {
 
         let copy = this.state.filtered_products
@@ -98,7 +110,7 @@ export default class App extends Component {
                 <p>Filters by product category on the current page. Case insensitive. When empty, all results are returned.</p>
                 <input placeholder="Enter a product category" type="text" onChange={this.storeFilter}/>
 
-                <Products products={this.state.filtered_products}/>
+                <Products products={this.state.filtered_products} average={this.state.avg}/>
                 { 
                     this.state.next_page ? 
                     <button className="btn indigo" onClick={this.nextPage}>Load More</button> :
