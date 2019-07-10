@@ -113,8 +113,8 @@ export default class App extends Component {
                 <Products products={this.state.filtered_products} average={this.state.avg}/>
                 { 
                     this.state.next_page ? 
-                    <button className="btn indigo" onClick={this.nextPage}>Load More</button> :
-                    <button className="btn indigo disabled">No more products </button> 
+                    <button style={{marginTop: '1rem'}} className="btn-large waves-effect waves-light indigo" onClick={this.nextPage}>Load More</button> :
+                    <button style={{marginTop: '1rem'}} className="btn-large waves-effect waves-light indigod">No more products </button> 
                 }
                 </section>
             </section>
