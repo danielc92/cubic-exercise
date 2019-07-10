@@ -1,23 +1,32 @@
 import React, { Component } from 'react'
+import Notes from './Notes';
+import Products from './Products';
+
 
 export default class App extends Component {
 
     state = {
-        products: []
+        products: [], 
+        url_extension: 'products/1',
+        url_base: 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/'
     }
 
     componentDidMount = () => {
-        let base_url = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/'
-        let extension = 'products/1'
+        fetch(`${this.url_base}${this.url_extension}`)
+        .then()
+        .then()
+        .catch()
     
     }
 
     render() {
         return (
-            <div>
+            <section className="section">
+                <section className="container">
                 <Notes/>
                 <Products products={this.state.products}/>
-            </div>
+                </section>
+            </section>
         )
     }
 }

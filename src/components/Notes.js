@@ -5,12 +5,12 @@ export default class Notes extends Component {
         return (
             <div>
                 <h3>Notes</h3>
-                <p>Instructions</p>
+                <strong>Instructions</strong>
                 <ul>
                     <li>Assume dimensions are in centimetres</li>
                     <li>Cubic meter multiplied by 250 factor gives <strong>cubic weight</strong></li>
                 </ul>
-                <p>My Assumptions</p>
+                <strong>My Assumptions</strong>
                 <ul>
                     <li>Measurements need to be converted into meters (/100)</li>
                     <li>Number of pages is variable</li>
