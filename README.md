@@ -16,4 +16,5 @@ From root of this project...
 ```
 npm start
 ```
-
+### View locally
+Visit browser on `http://localhost:3000`
