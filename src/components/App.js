@@ -54,14 +54,12 @@ export default class App extends Component {
     // Store the filter from onChange event
     storeFilter = (e) => {
         let filter = e.target.value.toLowerCase();
-        this.setState({filter: filter})
-        this.filterProducts()
+        this.setState({filter}, ()=> this.filterProducts())
     }
 
 
     // Filter the products in state
     filterProducts = () => {
-
         if (this.state.filter.length > 0) {
             let filtered = this.state.products.filter(item=> item["category"].toLowerCase().includes(this.state.filter))
             this.setState({filtered_products: filtered})
