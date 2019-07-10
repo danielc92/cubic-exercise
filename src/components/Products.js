@@ -6,8 +6,8 @@ export default class Products extends Component {
         return (
             <div>
                 <h3>Products</h3>
-                <p>Found <span className="chip orange white-text">{this.props.products.length} products</span> </p>
-                <p>Average weight for these products <span className="chip pink white-text">{this.props.average}</span> </p>
+                <p>Found <span className="chip orange white-text">{this.props.products.length} products</span>. Average weight for these products <span className="chip pink white-text">{this.props.average} grams</p>
+                <p></span> </p>
                     <table className="table">
                     <thead>
                         <tr>
