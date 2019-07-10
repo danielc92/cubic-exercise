@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/cubic-exercise/static/js/main.7ebaa255.chunk.js",
-    "main.js.map": "/cubic-exercise/static/js/main.7ebaa255.chunk.js.map",
+    "main.js": "/cubic-exercise/static/js/main.0c451461.chunk.js",
+    "main.js.map": "/cubic-exercise/static/js/main.0c451461.chunk.js.map",
     "runtime~main.js": "/cubic-exercise/static/js/runtime~main.e79297a7.js",
     "runtime~main.js.map": "/cubic-exercise/static/js/runtime~main.e79297a7.js.map",
     "static/js/2.a5adb38c.chunk.js": "/cubic-exercise/static/js/2.a5adb38c.chunk.js",
     "static/js/2.a5adb38c.chunk.js.map": "/cubic-exercise/static/js/2.a5adb38c.chunk.js.map",
     "index.html": "/cubic-exercise/index.html",
-    "precache-manifest.188183ff1964a73f59574d8a69abc788.js": "/cubic-exercise/precache-manifest.188183ff1964a73f59574d8a69abc788.js",
+    "precache-manifest.383c9cef420c7604d8c64b61fdeb3812.js": "/cubic-exercise/precache-manifest.383c9cef420c7604d8c64b61fdeb3812.js",
     "service-worker.js": "/cubic-exercise/service-worker.js"
   }
 }
