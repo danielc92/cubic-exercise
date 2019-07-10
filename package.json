@@ -2,6 +2,7 @@
   "name": "cubic-exercise",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://danielc92.github.io/cubic-exercise",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
